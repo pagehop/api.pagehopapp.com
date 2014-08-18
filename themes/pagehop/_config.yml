@@ -1,11 +1,13 @@
 doc_sidebar:
   Getting Started:
     Overview: index.html
-    Recipes and tools: recipes-and-tools.html
+    Usage: usage.html
+    Register with License-key: register-with-license-key.html
     Search: search.html
     Pagehopping: pagehopping.html
     Docs Browsing: docs-browsing.html
     News Titles: news-titles.html
+    3rd party Recipes and Tools: 3rd-party-recipes-and-tools.html
   Development:
     Pagehop CLI: pagehop-cli.html
     Coding conventions: coding-conventions.html
