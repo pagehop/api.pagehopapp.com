@@ -1,0 +1,26 @@
+doc_sidebar:
+  Getting Started:
+    Overview: index.html
+    Recipes and tools: recipes-and-tools.html
+    Search: search.html
+    Pagehopping: pagehopping.html
+    Docs Browsing: docs-browsing.html
+    News Titles: news-titles.html
+  Development:
+    Pagehop CLI: pagehop-cli.html
+    Coding conventions: coding-conventions.html
+  Develop Recipes:
+    Scaffold: scaffold-recipe.html
+    Recipe API: recipe-api.html
+    Testing: testing-recipes.html
+  Develop Tools:
+    Scaffold: scaffold-tool.html
+    Tool API: tool-api.html
+    Testing: testing-tools.html
+  Troubleshooting:
+    F.A.Q.: faq.html
+
+google_analytics: UA-53791435-1
+fb_admins: 
+twitter: pagehopapp
+github: pagehop

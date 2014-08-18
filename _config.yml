@@ -3,10 +3,10 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Pagehop API Documentation.
+title: Documentation | Pagehop
 subtitle:
 description:
-author: Nikolay Tsenkov
+author: Universless Ltd.
 email:
 language:
 
@@ -80,7 +80,7 @@ disqus_shortname:
 # Extensions
 ## Plugins: https://github.com/hexojs/hexo/wiki/Plugins
 ## Themes: https://github.com/hexojs/hexo/wiki/Themes
-theme: landscape
+theme: pagehop
 exclude_generator:
 
 # Deployment
