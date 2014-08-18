@@ -1,5 +1,6 @@
 #sidebar
   column(3)
+  position: relative
   font-family: font-title
   padding: 0 0 40px
   @media mq-mobile
@@ -31,8 +32,29 @@
   padding: 5px 15px
   border-left: 2px solid color-border
   margin-left: 3px
-  &:hover, &.current
+  &.current, &.current:hover
     color: color-blue
-  &.current
     font-weight: bold
     border-left-color: color-blue
+    &:before
+      content: ""
+      width: 4px
+      height: 8px
+      border-top-left-radius: 50%;
+      border-bottom-left-radius: 50%;
+      background: color-blue
+      position: absolute
+      margin-top: 4px
+      left: 0px
+  &:hover
+    border-left-color: color-border
+    &:before
+      content: ""
+      width: 4px
+      height: 8px
+      border-top-left-radius: 50%;
+      border-bottom-left-radius: 50%;
+      background: #666
+      position: absolute
+      margin-top: 4px
+      left: 0px

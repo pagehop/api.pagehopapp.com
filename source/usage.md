@@ -120,6 +120,3 @@ To check what is the default shortcut (or change it), go to Settings from the Me
 You should get a window like this one:
 
 ![](/usage-resources/settings-window.png)
-
-
-367x88		-		705xN
