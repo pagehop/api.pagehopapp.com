@@ -1,5 +1,8 @@
 title: Overview
 ---
+
+## Welcome
+
 Welcome to Pagehop's documentation! These few articles should guide you into using our app and how to extend it and craft your own Recipes and Tools. Wonder what these are? Well, dive right in to find out. If haven't done that, already - here is how to install Pagehop.
 
 ## Installation
