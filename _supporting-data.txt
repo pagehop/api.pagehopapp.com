@@ -1,3 +1,7 @@
 Coordinates for screenshot:
 
 367x88		-		705xN
+
+420x150		-		610x360
+
+420x150		-		475x450
