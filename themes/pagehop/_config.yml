@@ -9,7 +9,7 @@ doc_sidebar:
     Reading News: reading-news
     3rd party Recipes and Tools: 3rd-party-recipes-and-tools
   Development:
-    Pagehop CLI: pagehop-cli
+    Overview: development-overview
     Coding conventions: coding-conventions
   Develop Recipes:
     Scaffold: scaffold-recipe
