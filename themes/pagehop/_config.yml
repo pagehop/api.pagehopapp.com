@@ -6,7 +6,7 @@ doc_sidebar:
     Search: search
     Page-hopping: page-hopping
     Docs Browsing: docs-browsing
-    News Titles: news-titles
+    Reading News: reading-news
     3rd party Recipes and Tools: 3rd-party-recipes-and-tools
   Development:
     Pagehop CLI: pagehop-cli
