@@ -1,4 +1,5 @@
 title: Search
+permalink: search/
 ---
 In this article we will take you through the search capabilities of Pagehop.
 
@@ -22,7 +23,7 @@ Pagehop, by default, returns the first 30 results (configurable for more in the 
 
 Here is Pagehop configured for 90 results (**9 pages**) searching for "Java web frameworks":
 
-![](/search/search-90-results.png)
+![](/search-resources/search-90-results.png)
 
 ### Filter results with regular expression
 
@@ -30,7 +31,7 @@ If we want to filter the results we got in the last example, with, lest say, a r
 
 Here is how:
 
-![](/search/regex-filter.png)
+![](/search-resources/regex-filter.png)
 
 ### Filter results matching on addresses instead of titles
 
@@ -38,7 +39,7 @@ What if we want to match results pointing to domains of the type [something]fram
 
 We can do this by first using the :a (Addresses) tool, to show us the addresses of the results (thus making search on them instead on titles) and then piping a :r filtering at the end:
 
-![](/search/filter-on-url.png)
+![](/search-resources/filter-on-url.png)
 
 ### Fuzzy matching results as GotoAnywhere in SublimeText
 
@@ -46,7 +47,7 @@ If you use Fuzzy matching somewhere on your computer, you probably know the frus
 
 If you search for a very common personal name in Google, the :f (Fuzzy) tool will be a nice choice to filter the results:
 
-![](/search/fuzzy-matching.png)
+![](/search-resources/fuzzy-matching.png)
 
 ## Vertical Search Examples
 
@@ -75,13 +76,13 @@ Even if we turn a blind-eye to the awesome tooling (:r, :f, :a, etc.), Pagehop s
 
 Here is an example:
 
-![](/search/wiki-search.png)
+![](/search-resources/wiki-search.png)
 
 ### Search StackOverflow
 
 You probably guessed that already - writing "s [your-query]" will search in StackOverflow.
 
-![](/search/stack-overflow-search.png)
+![](/search-resources/stack-overflow-search.png)
 
 ### Youtube, MDN, jQuery API, NPM and many more to come
 

@@ -2,7 +2,7 @@
   <% _.each(theme.doc_sidebar, function(menu, title){ %>
     <strong class="sidebar-title"><%= title %></strong>
     <% _.each(menu, function(link, text){ %>
-      <a href="<%- url_for(link) %>" class="sidebar-link<% if (is_current(link, true)){ %> current<% } %>"><%= text %></a>
+      <a href="<%- url_for(link) %>" class="sidebar-link<% if (is_current(link, false)){ %> current<% } %>"><%= text %></a>
     <% }) %>
   <% }) %>
 </aside>

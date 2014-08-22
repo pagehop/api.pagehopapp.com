@@ -1,4 +1,5 @@
 title: Usage
+permalink: usage/
 ---
 After you install Pagehop, you will notice a new icon in your MenuBar.
 
@@ -18,7 +19,7 @@ Now, you can begin exploring the default *recipes* bundled-up with the app. As t
 
 ## Recipes and Tools
 
-![](/usage-resources/pagehop-query-syntax.png)
+![](/common-resources/pagehop-query-syntax.png)
 
 A *recipe*, in Pagehop's terminology, is the initial source of results. Searching in Google is done by a recipe, searching in StackOverflow, too.
 
@@ -36,6 +37,14 @@ All of these parts are delimited with " " (whitespace).
 Most of the recipes don't provide options, but **accept query** (all of the searches). For example here is a search with Google with query *"web development"*:
 
 ![](/usage-resources/google-search.png)
+
+### Default recipe is GoogleSearch
+
+If no recipe is recognized, Pagehop will perform a search in Google.
+
+![](/usage-resources/default-recipe.png)
+
+Check how awesome do queries look on [Docs browsing, when making a Google search without specifying the recipe](/docs-browsing/#Navigating_through_static_websites).
 
 ### Recipe options
 

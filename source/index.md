@@ -1,4 +1,5 @@
 title: Overview
+permalink: /
 ---
 
 ## Welcome

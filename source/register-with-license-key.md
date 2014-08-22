@@ -1,4 +1,5 @@
 title: Register with License-key
+permalink: register-with-license-key/
 ---
 Thanks for purchasing Pagehop and for being honest and fair. We will put *the minerals* to a good use.
 

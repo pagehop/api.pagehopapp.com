@@ -1,26 +1,26 @@
 doc_sidebar:
   Getting Started:
-    Overview: index.html
-    Usage: usage.html
-    Register with License-key: register-with-license-key.html
-    Search: search.html
-    Pagehopping: pagehopping.html
-    Docs Browsing: docs-browsing.html
-    News Titles: news-titles.html
-    3rd party Recipes and Tools: 3rd-party-recipes-and-tools.html
+    Overview: /
+    Usage: usage
+    Register with License-key: register-with-license-key
+    Search: search
+    Page-hopping: page-hopping
+    Docs Browsing: docs-browsing
+    News Titles: news-titles
+    3rd party Recipes and Tools: 3rd-party-recipes-and-tools
   Development:
-    Pagehop CLI: pagehop-cli.html
-    Coding conventions: coding-conventions.html
+    Pagehop CLI: pagehop-cli
+    Coding conventions: coding-conventions
   Develop Recipes:
-    Scaffold: scaffold-recipe.html
-    Recipe API: recipe-api.html
-    Testing: testing-recipes.html
+    Scaffold: scaffold-recipe
+    Recipe API: recipe-api
+    Testing: testing-recipes
   Develop Tools:
-    Scaffold: scaffold-tool.html
-    Tool API: tool-api.html
-    Testing: testing-tools.html
+    Scaffold: scaffold-tool
+    Tool API: tool-api
+    Testing: testing-tools
   Troubleshooting:
-    F.A.Q.: faq.html
+    F.A.Q.: faq
 
 google_analytics: UA-53791435-1
 fb_admins: 
