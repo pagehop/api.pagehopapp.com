@@ -4,7 +4,7 @@ var links = {
 };
 
 var getCorrectRelativeUrl = function(address) {
-  return address.substr( 0, 1 ) !== "/" ? "/" + address : address;
+  return address.substr( 0, 1 ) !== "/" ? "/" + address + "/" : address;
 }
 
 hexo.extend.helper.register('github_link', function(data){
