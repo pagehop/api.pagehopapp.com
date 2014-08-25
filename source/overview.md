@@ -1,9 +1,9 @@
-title: Usage
-permalink: usage/
+title: Overview
+permalink: overview/
 ---
 After you install Pagehop, you will notice a new icon in your MenuBar.
 
-![](/usage-resources/menu-bar-icon.png)
+![](/overview-resources/menu-bar-icon.png)
 
 ## Open Pagehop
 
@@ -11,11 +11,11 @@ To open Pagehop, you need to press the key shortcut (default is **Ctrl + ⌥ + S
 
 OK, after we know what the shortcut is, we press it, and we should get something like this:
 
-![](/usage-resources/pagehop.png)
+![](/overview-resources/pagehop.png)
 
 Now, you can begin exploring the default *recipes* bundled-up with the app. As the placeholder text suggest you could write *"allr "* (with Space character at the end - to activate the recipe it has to be not only first in the list, but you need to press Space, so the recipe gets executed). You should see something like this:
 
-![](/usage-resources/all-recipes.png)
+![](/overview-resources/all-recipes.png)
 
 ## Recipes and Tools
 
@@ -36,13 +36,13 @@ All of these parts are delimited with " " (whitespace).
 
 Most of the recipes don't provide options, but **accept query** (all of the searches). For example here is a search with Google with query *"web development"*:
 
-![](/usage-resources/google-search.png)
+![](/overview-resources/google-search.png)
 
 ### Default recipe is GoogleSearch
 
 If no recipe is recognized, Pagehop will perform a search in Google.
 
-![](/usage-resources/default-recipe.png)
+![](/overview-resources/default-recipe.png)
 
 Check how awesome do queries look on [Docs browsing, when making a Google search without specifying the recipe](/docs-browsing/#Navigating_through_static_websites).
 
@@ -52,11 +52,11 @@ Options are boolean type (true/false) of flags. They start with a : sign and end
 
 For example, the NPMSearch recipe - it has an option called :h, which stands for *"Homepage"* and gives results pointing to the homepages of the found NodeJS packages instead of their pages on the npmjs.org website. So if we want to search for a package, but go to its home page, we can do this by specifying the option :h before writing the search query (**check the tooltip**):
 
-![](/usage-resources/npm-search-option.png)
+![](/overview-resources/npm-search-option.png)
 
 And if we haven't used the :h (Homepage), check where does the result points now - **npmjs.org**:
 
-![](/usage-resources/npm-search.png)
+![](/overview-resources/npm-search.png)
 
 ### Recipes without a query
 
@@ -64,17 +64,17 @@ Some recipes' purpose is to provide a specific set of results (news for example)
 
 Here is an example with the HackerNews recipe - writing "h " (ending with a Space) will pull the latest news as listed no (http://news.ycombinator.com):
 
-![](/usage-resources/hacker-news.png)
+![](/overview-resources/hacker-news.png)
 
 Similar to [tools without arguments](#Tools_without_an_argument) everything written as a recipe query, when recipe doesn't accept one, is considered as fuzzy matching (the same as writing ":f stringtomatch").
 
 Here is an example:
 
-![](/usage-resources/recipe-without-query.png)
+![](/overview-resources/recipe-without-query.png)
 
 is the same as:
 
-![](/usage-resources/recipe-without-query-and-fuzzy.png)
+![](/overview-resources/recipe-without-query-and-fuzzy.png)
 
 This is made for convenience, since we noticed that we were constantly making a fuzzy matching in such scenarios. 
 
@@ -92,11 +92,11 @@ Whenever you get many results, from a recipe it's nice to be able to filter thos
 
 In the last primer, we could use a filter to find the exact string "express" in the result titles. We can do this using the **:r** (Regex) tool. Here is how:
 
-![](/usage-resources/regex.png)
+![](/overview-resources/regex.png)
 
 This gets us closer to the desired result (it's now on the second row), but in this case, it's more convenient to use is another tool - **:f** Fuzzy (fuzzy matching) instead of Regex. Here is how we can directly select what we want:
 
-![](/usage-resources/fuzzy.png)
+![](/overview-resources/fuzzy.png)
 
 ### Tools without an argument
 
@@ -104,17 +104,17 @@ Sometimes you need to perform a task on the current results that we've got witho
 
 If we continue on the last example, but scrap the local filtering (fuzzy or regex) and we want to see the actual urls that the results are pointing to, we can do this using the **:a** (Addresses) tool.
 
-![](/usage-resources/addresses.png)
+![](/overview-resources/addresses.png)
 
 But we could still add an argument at the end... You wonder why? It's really simple, actually - we have found it very convenient whenever something doesn't accept an argument, the next thing written (before the next tool definition) is considered a search (fuzzy) in the current results. This means that if we can filter the results fuzzy matching on their urls, here it is:
 
-![](/usage-resources/addresses-with-fuzzy.png)
+![](/overview-resources/addresses-with-fuzzy.png)
 
 ### Piping tools
 
 In the last example, probably didn't take the best approach to get to the desired result, but when you got so close to the result is better not to start over, but just use another tool to get to this address. As we can see, it's impossible to position the current second result on first place using :f (Fuzzy). If we can somehow say "get the results **ending** with '/express'"... You know what - we can! We can use a regex for this. Here we pipe the :r tool after the :a tool:
 
-![](/usage-resources/piping.png)
+![](/overview-resources/piping.png)
 
 In the language of Regular Expressions, the **$** sign means "end of input", which in our case (single-line string) means exactly **"end of string"**.
 
@@ -124,8 +124,8 @@ Here is a graphic that
 
 To check what is the default shortcut (or change it), go to Settings from the MenuBar.
 
-![](/usage-resources/menu-settings.png)
+![](/overview-resources/menu-settings.png)
 
 You should get a window like this one:
 
-![](/usage-resources/settings-window.png)
+![](/overview-resources/settings-window.png)

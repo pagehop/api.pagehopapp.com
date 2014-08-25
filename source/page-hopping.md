@@ -43,7 +43,7 @@ Lets see what's going on in this query `g hexo :l docs :l writin`:
 	- first we search in Google for "hexo" (you might get different results, since Google uses IP, geo location, language and other factors that make searching the same string to lead to different, personalized results)
 - `:l`
 	- We *hop* from the first result in the list
-- `docs` (after tools without an argument and the next tool in line [everything is considered an argument to a fuzzy matching](/usage/#Tools_without_an_argument))
+- `docs` (after tools without an argument and the next tool in line [everything is considered an argument to a fuzzy matching](/overview/#Tools_without_an_argument))
 	- Through the links we get returned we fuzzy match to get the url for documentation on first position
 - `:l`
 	- We hop from the first matched item:
