@@ -8,6 +8,8 @@ doc_sidebar:
     Docs Browsing: docs-browsing
     Reading News: reading-news
     3rd party Recipes and Tools: 3rd-party-recipes-and-tools
+  Development:
+    Overview: development-overview
   Develop Recipes:
     Scaffold: scaffold-recipe
     Recipe API: recipe-api

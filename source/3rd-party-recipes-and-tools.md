@@ -54,8 +54,8 @@ To revert to an older version, you need to delete the new recipe/tool from `~/.p
 
 Finally, log-off + log-in or restart your computer so the cache is redone.
 
-## CLI tool is comming your way
+## The pagehop CLI tool will be helping with this
 
 The process of installing a recipe or tool isn't too hard, but still can be made a lot easier with a CLI tool, you can use in the Terminal.
 
-Sometime during v1's (Pagehop 1.0.0's) lifecycle, we plan to release a CLI tool, that will help with the **install** and the **development** of recipes and tools.
+Sometime during v1's (Pagehop 1.x.x's) lifecycle, we plan to release a new version of the pagehop CLI tool to help you install recipes and tools from the public repositories in Github.
