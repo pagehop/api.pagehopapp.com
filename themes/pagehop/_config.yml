@@ -12,14 +12,19 @@ doc_sidebar:
     Overview: development-overview
   Develop Recipes:
     Scaffold: scaffold-recipe
-    Recipe API: recipe-api
+    package.json: package-json-recipe
+    page-loop.js: page-loop-js
+    scrape.js: scrape-js
     Testing: testing-recipes
   Develop Tools:
     Scaffold: scaffold-tool
-    Tool API: tool-api
+    package.json: package-json-tool
+    tool.js: tool-js
     Testing: testing-tools
   Troubleshooting:
     F.A.Q.: faq
+  Used Software:
+    Licenses: used-software
 
 google_analytics: UA-53791435-1
 fb_admins: 
