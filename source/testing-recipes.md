@@ -38,7 +38,7 @@ You use the framework like this:
 ...
 var test = require("pagehop").test;
 
-describe("recipe's pageLoop/scrape",function(){
+describe("recipe's pageLoop/scrape",function() {
 	before( function(done) {
 		test.init( done );
 	} );
@@ -66,7 +66,7 @@ var test = require("pagehop").test;
 
 var pathToRecipe = pathUtils.resolve( pathUtils.join( __dirname, '../' ) );
 
-describe("recipe's pageLoop",function(){
+describe("recipe's pageLoop",function() {
 	before( function(done) {
 		test.init( done );
 	} );
@@ -269,7 +269,7 @@ var test = require("pagehop").test;
 
 var pathToRecipe = pathUtils.resolve( pathUtils.join( __dirname, '../' ) );
 
-describe("recipe's scrape",function(){
+describe("recipe's scrape",function() {
 	before( function(done) {
 		test.init( done );
 	} );

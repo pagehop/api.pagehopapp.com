@@ -190,3 +190,11 @@ If you provide, both, text and displayText, displayText will be shown as the fir
 If you provide, both, address and displayAddress, only displayAddress will be shown, on the second row.
 
 By default, address is show in a tooltip on long-hover on items in the UI. You can pass a different tooltip text to replace it.
+
+# Keep it simple!
+
+Our final piece of advice, before we move on to [Testing](/testing-tools/) is: **keep your tool simple**!
+
+Every tool should have a single purpose, without many variable subcases.
+
+Whenever you sense that your tool starts handling multiple cases - consider extracting another tool(s) from it as separate project(s).
