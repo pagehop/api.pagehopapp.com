@@ -21,7 +21,7 @@ Pagehop will not be able to load a recipe, that doesn't have any of these files.
 
 In a nut-shell, page-loop.js and scrape.js are scripts that can use all node packages compliant with [browserify](http://browserify.org/), specified as dependencies in the package.json, and your recipe project can use absolutely all node packages for testing (devDependencies in the package.json).
 
-Pagehop "compiles" (more like links) page-loop and scrape using browserify, producing self-contained (no external dependencies) scripts.
+Pagehop "compiles" (more like "links") page-loop and scrape using browserify, producing self-contained (no external dependencies) scripts.
 
 To correctly load and execute your recipes, Pagehop uses the metadata in the package.json.
 
