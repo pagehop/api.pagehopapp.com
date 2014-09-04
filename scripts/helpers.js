@@ -30,6 +30,15 @@ hexo.extend.helper.register('item_flags', function(data){
   return result;
 });
 
+hexo.extend.helper.register('edit_link', function(path){
+  var root = "https://github.com/pagehop/api.pagehopapp.com/blob/master/source/";
+  if ( path === "/index.html" ) {
+    return root + "index.md";
+  } else {
+    return root + path.replace(/\/index\.html$/, '.md');
+  }
+});
+
 hexo.extend.helper.register('page_nav', function(){
   var sidebar = this.theme.doc_sidebar,
     path = this.path.replace(/^([^\/]*)\/.*$/, '$1') || "/",
