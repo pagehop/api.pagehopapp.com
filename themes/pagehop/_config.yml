@@ -21,10 +21,10 @@ doc_sidebar:
     package.json: package-json-tool
     tool.js: tool-js
     Testing: testing-tools
-  Troubleshooting:
-    F.A.Q.: faq
   Used Software:
     Licenses: used-software
+  Troubleshooting:
+    F.A.Q.: faq
 
 google_analytics: UA-53791435-1
 fb_admins: 
