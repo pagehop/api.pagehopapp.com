@@ -32,6 +32,10 @@ Before running the scrape.js script, the `pagehop` global object is created, whi
 
 Your recipe will timeout after **30 seconds**. Scrape can't go for longer than **10 seconds** (including loading the url), if it does, the callback in page-loop.js's call to pagehop.scrape() will return an error with type prop "timeout".
 
+# What if it fails?
+
+If scarpe.js has a syntax error or fails during runtime - your page-loop's scrape callback will receive an error with type and message properties.
+
 # Examples
 
 Here is an example for a scrape.js script. This is from the BingSearch recipe.

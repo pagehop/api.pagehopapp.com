@@ -25,7 +25,13 @@ Before running the page-loop script, the `pagehop` global object is created, whi
 
 # How long can it run?
 
-Your recipe will timeout after 30 seconds. Scrape can't go for longer than 10 seconds (including loading the url), if it does, the callback will return an error with type prop "timeout".
+Your recipe will timeout after 30 seconds. Scrape can't go for longer than 10 seconds (including loading the url), if it does, the callback will return an error with a `type` prop (saying "timeout") and a `message` prop.
+
+If your recipe (page-loop.js being the entry point) times-out, you will see the error in the UI.
+
+# What if it fails?
+
+If page-loop.js has a syntax error or fails during runtime, your recipe will fail and you will see the error in the UI.
 
 # Examples
 

@@ -30,8 +30,8 @@ To correctly load and execute your tools, Pagehop uses the metadata in the packa
 
 When the tool gets executed:
 - it receives the results produced by the previous piece in the pipeline (another tool or the selected recipe);
-- it processes the results;
-- the tool produces its own results passing them back to Pagehop.
+- processes the results;
+- produces its own results, passing them back to Pagehop.
 
 If the tool fails, the currentResults will simply remain unchanged and Pagehop will pass the same results to the next tool on the chain (if none - this will be the results, the user will see listed in the UI).
 
