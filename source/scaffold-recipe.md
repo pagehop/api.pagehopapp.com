@@ -15,7 +15,7 @@ page-loop.js
 scrape.js
 ```
 
-Pagehop will not be able to load a recipe, that doesn't have any of these files.
+Pagehop will not be able to load a recipe, that doesn't have all of these files.
 
 # How does it work?
 
