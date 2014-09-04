@@ -84,7 +84,7 @@ Here is how the actual package.json of this recipe (AllRecipes) looks like:
 ```
 
 {% note tip See dependencies? %}
-As you can see, this recipe doesn't have any dependencies. It has devDependencies, which are packages used in test.
+As you can see, this recipe doesn't have any dependencies. It has devDependencies, which are packages used in test. Still, you can use dependencies from npm, they just need to support browserify.
 {% endnote %}
 
 And this is a sample with recipe options present:
@@ -145,9 +145,18 @@ To avoid duplication of id's, name the dirs of your recipes the same as the page
 
 ### pagehop.options
 
-Array of recipe options. Recipe options are boolean flags and are specified by **keyword** (string) that follow the same syntax as a tool name:
+Array of recipe options. Recipe options are boolean flags and are specified by **keyword** (string) that follow the same syntax as a tool keyword:
 
 `:toolName1`
+
+{% note warn pagehop.options[i].keyword validation %}
+Keywords should start with ":", followed by a single literal in camelCase, without spaces or special characters - only letters and numbers, always starting with letter. E.g.:
+- `:keyword` is valid
+- `:anotherKeyword1`is valid
+- `:Keyword` is valid, but doesn't follow the convention
+- `:1keyword` isn't valid
+- `:$keyword` isn't valid
+{% endnote %}
 
 ... and a **description** (string), which simply explains what will the option change in the behavior of the recipe.
 
