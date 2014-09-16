@@ -1,0 +1,23 @@
+{
+  "name": "api.pagehopapp.com",
+  "version": "1.0.0",
+  "homepage": "https://github.com/pagehop/api.pagehopapp.com",
+  "authors": [
+    "nicroto <nikolay@tsenkov.net>"
+  ],
+  "description": "The documentation site of Pagehop",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.2.0",
+    "jquery-easing": "*",
+    "classie": "~1.0.1",
+    "font-awesome": "~4.2.0"
+  }
+}

@@ -1,13 +1,136 @@
-<footer id="footer">
-  <div class="outer">
-    <div class="inner">
-      <div id="footer-copyright">
-        Copyright &copy; <a href="http://universless.com">Universless Ltd.</a> <%= new Date().getFullYear() %><br>
-      </div>
-      <div id="footer-links">
-        <a href="https://twitter.com/<%= theme.twitter %>" id="footer-link-twitter" class="footer-link" target="_blank"><span>Twitter</span></a>
-        <a href="https://github.com/<%- theme.github %>" id="footer-link-github" class="footer-link" target="_blank"><span>GitHub</span></a>
-      </div>
-    </div>
-  </div>
+<footer>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-4">
+				<span class="copyright">Copyright &copy; <a href="http://universless.com">Universless Ltd.</a> 2014</span>
+			</div>
+			<div class="col-md-4">
+				<ul class="list-inline social-buttons">
+					<li><a href="http://twitter.com/pagehopapp"><i class="fa fa-twitter"></i></a>
+					</li>
+					<li><a href="http://facebook.com/pagehop"><i class="fa fa-facebook"></i></a>
+					</li>
+					<li><a href="mailto:support@pagehopapp.com"><i class="fa fa-envelope"></i></a>
+					</li>
+				</ul>
+			</div>
+			<div class="col-md-4">
+				<ul class="list-inline quicklinks">
+					<li>
+						<a href="#" data-target="#privacyPolicyModal" data-keyboard="true" data-toggle="modal">Privacy Policy</a>
+					</li>
+					<li>
+						<a href="#" data-target="#eulaModal" data-keyboard="true" data-toggle="modal">EULA</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
 </footer>
+
+<!-- Modals -->
+<!-- PrivacyPolicy Modal -->
+<div class="modal fade" id="privacyPolicyModal" tabindex="-1" role="dialog" aria-hidden="true">
+	<div class="modal-content">
+		<div class="close-modal" data-dismiss="modal">
+			<div class="lr">
+				<div class="rl">
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-8 col-lg-offset-2">
+					<div class="modal-body">
+						<h1>Privacy Policy</h1>
+
+						<h2>The information you provide to us</h2>
+						<p>We take your privacy seriously. When you provide us with any personal information, we do our best to keep it safe. We will not share your personal information with third-parties other than our payment gateway and will take all reasonable precautions to protect it.</p>
+
+						<p>Braintree Payments (our payment gateway) will be the only party receiving your payment data in case you purchase a license for Pagehop. Our servers will not receive any of this data, other than your email, your name and the text of your License Key (the one you receive through email upon purchase) in order to be able to resend you your License Key in case it's lost. Universless Ltd. is not and will not be responsible nor held liable for any security issues that Braintree Payments gateway has or will have in future.</p>
+
+						<h2>Tracking and cookies</h2>
+						<p>To help us understand how we can make Pagehop's website better, we use Google Analytics on pagehopapp.com, as well as on api.pagehopapp.com.</p>
+
+						<p>This information is anonymous and does not provide us with identifiable information, but helps us ensure that our documentation pages answer all of the most popular questions correctly, for example.</p>
+
+						<hr style="width:60%">
+						<i>
+							<p>By using the websites owned by Universless Ltd. (including pagehopapp.com, www.pagehopapp.com and api.pagehopapp.com), you agree to the Privacy Policy above.</p>
+
+							<p>If you have any questions about our privacy policy, please contact us on support@pagehopapp.com.</p>
+						</i>
+						<button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- EULA Modal -->
+<div class="modal fade" id="eulaModal" tabindex="-1" role="dialog" aria-hidden="true">
+	<div class="modal-content">
+		<div class="close-modal" data-dismiss="modal">
+			<div class="lr">
+				<div class="rl">
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-8 col-lg-offset-2">
+					<div class="modal-body">
+						<h1>End-user license agreement (EULA)</h1>
+
+						<p>The SOFTWARE PRODUCT (PAGEHOP) is protected by copyright laws and international copyright treaties, as well as other intellectual property laws and treaties. The SOFTWARE PRODUCT is licensed, not sold.
+						</p>
+						<ol>
+							<li>LICENSES<br>
+							PAGEHOP is licensed as follows:
+
+								<ol type="a">
+									<li>Installation and Usage.<br>
+										Licenses are per user and valid for use on all supported operating systems. License keys may be used on multiple computers and operating systems, provided the license key holder is the primary user.
+									</li>
+									<li>Backup Copies.<br>
+										You may make copies of the license key and or PAGEHOP for backup and archival purposes.
+									</li>
+								</ol>
+
+							</li>
+							<li>DESCRIPTION OF OTHER RIGHTS AND LIMITATIONS
+
+								<ol type="a">
+									<li>Maintenance of Copyright Notices.<br>
+										You must not remove or alter any copyright notices on any copy of PAGEHOP.
+									</li>
+									<li>Distribution.<br>
+										You may not distribute or sell license keys or PAGEHOP to third parties. Licenses will be revoked if distributed or sold to third parties.
+									</li>
+									<li>Rental.<br>
+										You may not rent, lease, or lend the license key or PAGEHOP.
+									</li>
+								</ol>
+
+							</li>
+							<li>COPYRIGHT<br>
+								All title, including but not limited to copyrights, in and to PAGEHOP and any copies thereof are owned by UNIVERSLESS LTD.
+							</li>
+							<li>NO WARRANTIES<br>
+								UNIVERSLESS LTD expressly disclaims any warranty for PAGEHOP, which is provided 'as is' without any express or implied warranty of any kind, including but not limited to any warranties of merchantability, non-infringement, or fitness of a particular purpose.
+
+							</li>
+							<li>REFUNDS<br>
+								Refunds are available within 10 days of purchasing. Please send us an email (support@pagehopapp.com) if you wish to claim a refund. Refund can't be claimed after the first 10 days.
+							</li>
+							<li>LIMITATION OF LIABILITY<br>
+								In no event shall UNIVERSLESS LTD be liable for any damages due to use of PAGEHOP, to the maximum extent permitted by law. This includes without limitation, lost profits, business interruption, or lost information. In no event will UNIVERSLESS LTD be liable for loss of data or for indirect, special, incidental, consequential (including lost profit), or other damages. UNIVERSLESS LTD shall have no liability with respect to the content of PAGEHOP or any part thereof, including but not limited to errors or omissions contained therein, libel, trademark rights, business interruption, loss of privacy or the disclosure of confidential information.
+							</li>
+						</ol>
+						<button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
