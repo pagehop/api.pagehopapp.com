@@ -9,11 +9,9 @@ Before you start developing recipes and tools for Pagehop, you need to make a ve
 
 First you need to install PhantomJS v1.9.7. You can check their instructions [here](http://phantomjs.org/download.html).
 
-If you use homebrew (OS X), here is how you can install it:
-
-```bash
-$ brew update && brew install phantomjs
-```
+{% note warn Don't use Homebrew for this %}
+Homebrew appear to install a custom build, which currently we don't support. Copy the archive from phantomjs's website, unarchive and place the binary of phantomjs (bin/phantomjs) in the /usr/local/bin/ dir.
+{% endnote %}
 
 ## Install NodeJS (or just install Pagehop)
 
