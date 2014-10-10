@@ -25,10 +25,10 @@ Sometimes pages are not optimized for indexing and aren't easy to search for, so
 
 Let's see how do we solve this.
 
-To get to the first address of your navigation procedure, you have all the recipes of Pagehop at your disposal. Navigating directly to an address is coming soon.
+To get to the first address of your navigation procedure, you can simply write the first url to visit, or use any of the recipes at your disposal, in order to get it.
 
-{% note tip About navigation to address directly %}
-This feature (navigate to the url instead of searching for it) will come as a free update **before** v2.
+{% note tip Shortcut for appending :l %}
+If the focus in the results, pressing ⃗ (RightArrow key) will append :l to the end of the query.
 {% endnote %}
 
 Having the first address selected in the results, we can get all the hyperlinks on it using the :l (Links) tool. And from there on, we simply pipe :l multiple times until we get where we want.
