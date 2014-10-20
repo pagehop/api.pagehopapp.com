@@ -22,7 +22,7 @@ No problem! Your query is `h :s`.
 
 ![](/reading-news-resources/hn-show.png)
 
-You also can view the jobs with **:j**, the asked questions (Ask HN) with **:ask**, latest submitted with **:n** and latest comments with **:c**.
+You also can view the jobs with **:j** and the asked questions (Ask HN: and Poll:) with **:ask**.
 
 And remember :d from earlier? You can use it **everywhere applicable** (e.g. `h :s :d` will give you the discussions on the Show HN posts and so on).
 
