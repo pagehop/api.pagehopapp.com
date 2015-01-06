@@ -9,11 +9,11 @@ After you install Pagehop, you will notice a new icon in your MenuBar.
 
 To open Pagehop, you need to press the key shortcut (default is **Ctrl + ⌥ + Space**) or open it from the menu in the MenuBar.
 
-OK, after we know what the shortcut is, we press it, and we should get something like this:
+OK, after you know what the shortcut is - press it, and you should get something like this:
 
 ![](/overview-resources/pagehop.png)
 
-Now, you can begin exploring the default *recipes* bundled-up with the app. As the placeholder text suggest you could write *"allr "* (with Space character at the end - to activate the recipe it has to be not only first in the list, but you need to press Space, so the recipe gets executed). You should see something like this:
+Now, you can begin exploring the default *recipes* bundled-up with the app. As the placeholder text suggest you could write *"sys :r"*. You should see something like this:
 
 ![](/overview-resources/all-recipes.png)
 
@@ -48,7 +48,7 @@ Check how awesome do queries look on [Docs browsing, when making a Google search
 
 ### Recipe options
 
-Options are boolean type (true/false) of flags. They start with a : sign and end with an alphanumeric value (**":option"** is a valid option name, but "option:", "option", ":$", ":-" etc. aren't).
+Options are boolean type (true/false) of flags. They start with a **:** sign and end with an alphanumeric value (**":option"** is a valid option name, but "option:", "option", ":$", ":-" etc. aren't).
 
 For example, the NPMSearch recipe - it has an option called :h, which stands for *"Homepage"* and gives results pointing to the homepages of the found NodeJS packages instead of their pages on the npmjs.org website. So if we want to search for a package, but go to its home page, we can do this by specifying the option :h before writing the search query (**check the tooltip**):
 
@@ -62,7 +62,7 @@ And if we haven't used the :h (Homepage), check where does the result points now
 
 Some recipes' purpose is to provide a specific set of results (news for example), and don't accept a query.
 
-Here is an example with the HackerNews recipe - writing "h " (ending with a Space) will pull the latest news as listed no (http://news.ycombinator.com):
+Here is an example with the HackerNews recipe - writing "h" will pull the latest news as listed on (http://news.ycombinator.com):
 
 ![](/overview-resources/hacker-news.png)
 
@@ -117,8 +117,6 @@ In the last example, probably didn't take the best approach to get to the desire
 ![](/overview-resources/piping.png)
 
 In the language of Regular Expressions, the **$** sign means "end of input", which in our case (single-line string) means exactly **"end of string"**.
-
-Here is a graphic that 
 
 ## Settings
 

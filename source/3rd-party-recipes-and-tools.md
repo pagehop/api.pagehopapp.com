@@ -20,7 +20,7 @@ In your user dir, there should be a dir named *.pagehop* with 2 subdirs, like th
 		tools</pre></figure>
 {% endraw %}
 
-In other words, you need to ensure these 2 dirs get created:
+In other words, you need to create these 2 dirs:
 
 `~/.pagehop/recipes/`
 

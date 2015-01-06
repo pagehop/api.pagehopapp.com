@@ -27,10 +27,6 @@ Let's see how do we solve this.
 
 To get to the first address of your navigation procedure, you can simply write the first url to visit, or use any of the recipes at your disposal, in order to get it.
 
-{% note tip Shortcut for appending :l %}
-If the focus in the results, pressing ⃗ (RightArrow key) will append :l to the end of the query.
-{% endnote %}
-
 Having the first address selected in the results, we can get all the hyperlinks on it using the :l (Links) tool. And from there on, we simply pipe :l multiple times until we get where we want.
 
 Here is an example:
@@ -43,7 +39,7 @@ Lets see what's going on in this query `g hexo :l docs :l writin`:
 	- first we search in Google for "hexo" (you might get different results, since Google uses IP, geo location, language and other factors that make searching the same string to lead to different, personalized results)
 - `:l`
 	- We *hop* from the first result in the list
-- `docs` (after tools without an argument and the next tool in line [everything is considered an argument to a fuzzy matching](/overview/#Tools_without_an_argument))
+- `docs` (between a **tool without an argument** and the **next tool in line** [everything is considered an argument to a fuzzy matching](/overview/#Tools_without_an_argument))
 	- Through the links we get returned we fuzzy match to get the url for documentation on first position
 - `:l`
 	- We hop from the first matched item:

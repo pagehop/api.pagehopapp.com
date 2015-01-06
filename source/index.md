@@ -16,10 +16,10 @@ You need to enter the admin credentials in order to install successfully.
 
 ### Requirements
 
-Pagehop officially requires **OS X 10.9+**.
+Pagehop officially requires **OS X 10.10+**.
 
-{% note tip For OS X 10.8 users %}
-You probably will be able to use Pagehop without a problem, too, since we've built the binary targeting 10.8+, but we haven't tested it with Mountain Lion.
+{% note tip For OS X 10.9 users %}
+You probably will be able to use Pagehop without a problem, since we've built the binary targeting 10.9+, but we haven't tested it with OS X Mavericks.
 {% endnote %}
 
 Any 3rd party dependencies that Pagehop requires, come bundled-up with this installer (you don't need to install anything other than Pagehop).
@@ -34,7 +34,7 @@ There are 2 applications that get installed with Pagehop:
 
 ### What about Windows and Linux?
 
-Pagehop starts on the Mac, but it's designed to be easily ported on other OS's. In fact, here at Universless, we hate the word *ported*. That's why we made a promise to ourselves, that we will make Pagehop's UI special for every platform, using the most native for the platform UI. If you guys like Pagehop and want to see it on other platforms, please [tell us](mailto:feedback@pagehopapp.com), so we can make **the educated** guess which platform should we conquer next. To be able to get Pagehop on other platforms sooner, we are hoping, that you will show us your appreciation through [purchasing a license](https://pagehopapp.com/buy). We thank you for your honesty.
+Pagehop starts on the Mac, but it's designed to be easily ported on other OS's. In fact, here at Universless, we hate the word *ported*. That's why we made a promise to ourselves, that we will make Pagehop's UI special for every platform, using the most native for the platform UI. If you guys like Pagehop and want to see it on other platforms, please [tell us](mailto:feedback@pagehopapp.com), so we can make **the educated** guess which platform should we conquer next. To be able to get Pagehop on other platforms sooner, we are hoping, that you will show us your appreciation through [purchasing a license](https://pagehopapp.com/buy). Thank you for your honesty!
 
 ### What about mobile?
 

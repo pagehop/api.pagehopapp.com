@@ -9,14 +9,6 @@ Please, try following the instructions in [this article](/register-with-license-
 
 There are at least 2 possible causes:
 
-### Unclosed Registration window in the background
-
-If you get the Registration window and then you ⌥ + Tab to some other window, the Registration window remains open in the background, which prevents Pagehop's main window (or any other window - Settings, About, too) to open up.
-
-**Solution:** Open the Menu in the MenuBar and click on "Registration..." to get the Registration window to the front and then register your license key or click Cancel.
-
-If you register Pagehop, you will never experience this behavior, again.
-
 ### Shortcut isn't what you expect
 
 Open the Pagehop Menu (from the MenuBar), and click Settings.

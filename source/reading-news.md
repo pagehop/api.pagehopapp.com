@@ -1,15 +1,15 @@
 title: Reading News
 permalink: reading-news/
 ---
-Wouldn't be great to always have todays news, just a few keys away from you, no matter the current application you work with?
+Wouldn't it be great to always have todays news, just a few keys away from you, no matter the current application you work with?
 
 ## Hacker News
 
-Pagehop 1.0.0 has a recipe HackerNews. Pagehop **0.1.0** had a recipe HackerNews.
+Since 1.0, Pagehop has a recipe for the Hacker News. Pagehop **0.1.0** had a recipe HackerNews.
 
 It's awesome. It's something, our team can't live without.
 
-You want to check the news on news.ycombinator.com? You just open-up Pagehop and type "h " (with a trailing space) and there it is:
+You want to check the news on news.ycombinator.com? You just open-up Pagehop and type "hack" (no need for a trailing space) and there it is:
 
 ![](/reading-news-resources/hn.png)
 
