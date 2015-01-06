@@ -23,7 +23,8 @@ doc_sidebar:
     Testing: testing-tools
   Used Software:
     Licenses: used-software
-  Troubleshooting:
+  Misc:
+    Release History: releases
     F.A.Q.: faq
 
 google_analytics: UA-53791435-1
