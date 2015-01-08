@@ -20,8 +20,6 @@ You want to see the discussion on some of the news - just add :d (recipe option 
 You've missed couple of days of news and want to see the latest Show HN submissions...
 No problem! Your query is `h :s`.
 
-![](/reading-news-resources/hn-show.png)
-
 You also can view the jobs with **:j** and the asked questions (Ask HN: and Poll:) with **:ask**.
 
 And remember :d from earlier? You can use it **everywhere applicable** (e.g. `h :s :d` will give you the discussions on the Show HN posts and so on).
