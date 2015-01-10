@@ -1,3 +1,9 @@
+/* Custom for api.pagehopapp.com */
+
+#page-banner {
+	background-size: 432px auto;
+}
+
 /* Global */
 
 a:hover {
