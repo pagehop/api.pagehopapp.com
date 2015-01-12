@@ -1,7 +1,7 @@
 title: Release History
 permalink: releases/
 ---
-## 1.1 ()
+## 1.1 (13th Jan 2015)
 
 Add: OS X: new UI design;
 Add: OS X: text field is always focused;
