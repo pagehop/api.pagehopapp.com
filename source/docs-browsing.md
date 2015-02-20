@@ -83,10 +83,6 @@ Lets see some awesome examples!
 
 ![](/docs-browsing-resources/hibernate-docs.png)
 
-### Reference for the string.explode function in PHP
-
-![](/docs-browsing-resources/php-docs.png)
-
 ### Reference for all exceptions in the java.lang namespace
 
 ![](/docs-browsing-resources/java-docs.png)

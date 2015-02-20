@@ -50,7 +50,7 @@ Check how awesome do queries look on [Docs browsing, when making a Google search
 
 Options are boolean type (true/false) of flags. They start with a **:** sign and end with an alphanumeric value (**":option"** is a valid option name, but "option:", "option", ":$", ":-" etc. aren't).
 
-For example, the NPMSearch recipe - it has an option called :h, which stands for *"Homepage"* and gives results pointing to the homepages of the found NodeJS packages instead of their pages on the npmjs.org website. So if we want to search for a package, but go to its home page, we can do this by specifying the option :h before writing the search query (**check the tooltip**):
+For example, the NPMSearch recipe - it has an option called :h, which stands for *"Homepage"* and gives results pointing to the homepages of the found NodeJS packages instead of their pages on the npmjs.org website. So if we want to search for a package, but go to its home page, we can do this by specifying the option :h before writing the search query (we are using the Addresses tool :a to show us where the results are pointing):
 
 ![](/overview-resources/npm-search-option.png)
 
