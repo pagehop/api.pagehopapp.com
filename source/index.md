@@ -18,7 +18,7 @@ You need to enter the admin credentials in order to install successfully.
 
 Pagehop officially requires **OS X 10.10+**.
 
-{% note tip For OS X 10.9 users %}
+{% note info For OS X 10.9 users %}
 You probably will be able to use Pagehop without a problem, since we've built the binary targeting 10.9+, but we haven't tested it with OS X Mavericks.
 {% endnote %}
 
