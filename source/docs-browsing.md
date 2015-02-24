@@ -64,7 +64,7 @@ Git has grown to be one of the most preferred and therefore popular version-cont
 
 There are some nice UI's for it out there, but you still need to do some things from the Terminal from time to time. But reading "MAN"-ual pages in the terminal isn't *everyone's cup of tea*. Here is how you can get the web docs instead:
 
-![](/docs-browsing-resources/git-rebase.png)
+![](/common-resources/doc-search-git-rebase.png)
 
 If you use another SCM/RCS/VCS, the chances are DocSearch might still hold the answer for you - you can find docs for Mercurial and SVN.
 
@@ -100,7 +100,7 @@ Straight to the example:
 
 Although this is not a documentation search per se, we programmers have this saying "There is no documentation more up-to-date and accurate than code itself.". You probably know it? Not? Anyways, here is how I would search for usages of the readFileSync function from the standard NodeJS package **fs**:
 
-![](/docs-browsing-resources/code-search-readfilesync.png)
+![](/common-resources/code-search-readfilesync.png)
 
 ## Navigating through static websites
 

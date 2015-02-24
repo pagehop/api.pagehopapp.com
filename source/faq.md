@@ -27,6 +27,13 @@ If this happens for more than 1 min without any other indication, please try res
 
 If nothing changes, try logging out.
 
+## WolframAlpha asks me to download an iPhone app?
+
+Yeah. (:blushing:)
+With WA recipe, we open up a page in the Pagehop result preview (right half of the screen) masking ourselves as a mobile browser. In fact we use an iPhone "user agent" to achieve this.
+
+**But no worries!** All you need to do, is click on the link "continue..." at the bottom of the page and you probably will never see this message again. It's cached as a cookie to the webview.
+
 ## If you can't find an answer to your problem in the docs...
 
 Contact us at [support@pagehopapp.com](mailto:support@pagehopapp.com).

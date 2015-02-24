@@ -72,11 +72,36 @@ Both of these procedures end up with results for your query.
 
 Even if we turn a blind-eye to the awesome tooling (:r, :f, :a, etc.), Pagehop still gives you 2 big advantages:
 - You get faster to the results (smaller procedure);
-- All results are coming from Wikipedia, not some (potentially none when searching through horizontal engine) all of them.
+- All results are coming from Wikipedia, not some (potentially **none** when searching through horizontal engine) all of them.
 
 Here is an example:
 
 ![](/search-resources/wiki-search.png)
+
+### Search with the knowledge engine Wolfram Alpha
+
+Using sophisticated algorithms for natural language processing, Wolfram Alpha is able to *understand* very complex search queries. From the *Examples* section of the WolframAlpha recipe's [documentation](https://github.com/pagehop/recipes/blob/master/wolfram-alpha/README.md#examples):
+- wolf plot x^2
+- wolf second derivative of x^2
+- wolf what is the population of UK
+- wolf what is the distance between new york and san francisco
+- wolf distance between new york and san francisco
+- wolf what year is it
+- wolf which is the biggest state in the U.S.
+
+Here are a couple of examples:
+
+![](/search-resources/wolfram-alpha-plot.png)
+
+![](/common-resources/wolfram-alpha-biggest-state.png)
+
+### Find code examples for a function part of a programming language or library
+
+With the **CodeSearch** recipe, you can search for real-world code samples. The recipe is using the searchcode.com public API. searchcode.com has indexed over 5 000 000 projects on Github, Bitbucket, Google Code, Codeplex, Sourceforge, Fedora Project and more.
+
+Here is how you can search for usages of the readFileSync function in the fs package in NodeJS:
+
+![](/common-resources/code-search-readfilesync.png)
 
 ### Search StackOverflow
 
@@ -84,8 +109,8 @@ You probably guessed that already - writing "s [your-query]" will search in Stac
 
 ![](/search-resources/stack-overflow-search.png)
 
-### Youtube, MDN, jQuery API, NPM and many more to come
+### DocSearch, Youtube, MDN, jQuery API, NPM and many more to come
 
 There probably isn't a website you search in, where Pagehop wouldn't be an option. We believe that Pagehop's development will explode in a rich set of Recipes, Tools and probably other pieces of beautifully crafted code we haven't even dreamed about, yet.
 
-So, if you use a resource that has no recipe for Pagehop - get onboard, write it yourself and share it with the community (or not).	
+So, if you use a resource that has no recipe for Pagehop - get onboard, write it yourself and share it with the community (or not).- 
