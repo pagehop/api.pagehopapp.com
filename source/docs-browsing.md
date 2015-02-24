@@ -1,25 +1,76 @@
 title: Docs Browsing
 permalink: docs-browsing/
 ---
-In this article we will show you a few examples why Pagehop is an awesome tool for navigation to documentation resources.
+In this article we will show you what an awesome tool Pagehop is for reading and navigation to online documentation.
 
 ## Using a recipe
 
-Pagehop comes with recipes that will help you find a reference for:
-- **every css property or selector**;
-- **every HTML element**;
-- **every default JavaScript object or function**.
+Using the **DocSearch** recipe, you can find documentation for:
+- Apache 2 Directive
+- BrainFuck
+- Closure
+- Cobol
+- Emacs
+- Fossil SCM
+- FTP Code
+- GIT
+- GNU/Linux Command
+- Hello World
+- HResult
+- HTTP Code
+- Java
+- Javascript
+- JQuery
+- Linux Kernel Error
+- Mac iOS Reference
+- Mac OSX Reference
+- Mercurial
+- MySQL Error
+- MySQL Function
+- Nginx HttpCoreModule
+- NT Status
+- Perl 5
+- Perl 5 Variable
+- PHP
+- Python
+- Python Exception
+- Smarty
+- SQL Server 2008 Function
+- SQL Server Error
+- stuntSnippets
+- SVN
+- Underscore.js
+- Visual Basic 6
+- Win 32 Error
+- Windows Command
 
-There is also a recipe for the API of the very popular JavaScript library, jQuery.
+Pagehop also comes with a recipe for the **Mozilla Developer Network**, which will help you find a reference for:
+- every css property or selector;
+- every HTML element;
+- every default JavaScript object or function.
+Of course you can search for anything Mozilla - Firefox OS, Rust, etc.
 
-This is a pretty good reference for all the client side work in a web project.
+The default bundle has also a recipe for the API of the very popular JavaScript library, **jQuery**.
 
-And if you are a NodeJS developer, you are pretty well covered - Pagehop comes bundled-up with a recipe for searching the archive of npm (Node Package Manager) for packages.
+And if you are a **NodeJS** developer, you are pretty well covered - Pagehop comes bundled-up with a recipe for searching the archive of npm (**Node Package Manager**) for packages.
 
-We are pretty optimistic that soon the choice of recipes will be very rich.
-We hope a community will emerge around the app and we count on **you**, our users, to help us get there.
+The final addition to this subset of Pagehop's pool of recipes, aiming at our more technical users, we have added a **CodeSearch** recipe, which allows you to find code samples from real-world code repositories (in Github, BitBucket, Google Code and others) of function calls, method calls, object instantiation and pretty much everything elso you wonder "How do others use it?".
 
-So lets see some examples.
+Lets see some examples.
+
+### Reading the doc for git rebase
+
+Git has grown to be one of the most preferred and therefore popular version-control systems.
+
+There are some nice UI's for it out there, but you still need to do some things from the Terminal from time to time. But reading "MAN"-ual pages in the terminal isn't *everyone's cup of tea*. Here is how you can get the web docs instead:
+
+![](/docs-browsing-resources/git-rebase.png)
+
+If you use another SCM/RCS/VCS, the chances are DocSearch might still hold the answer for you - you can find docs for Mercurial and SVN.
+
+### Documentation for the php explode
+
+![](/docs-browsing-resources/php-explode.png)
 
 ### Getting a reference for the `array.splice` function in JavaScript
 
@@ -44,6 +95,12 @@ Straight to the example:
 ### Getting a reference for the HTML element `<div></div>`
 
 ![](/docs-browsing-resources/mdn-find-div.png)
+
+### Search for code examples of the usage of `fs.readFileSync()` (NodeJS)
+
+Although this is not a documentation search per se, we programmers have this saying "There is no documentation more up-to-date and accurate than code itself.". You probably know it? Not? Anyways, here is how I would search for usages of the readFileSync function from the standard NodeJS package **fs**:
+
+![](/docs-browsing-resources/code-search-readfilesync.png)
 
 ## Navigating through static websites
 
