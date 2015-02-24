@@ -95,7 +95,8 @@ The result objects follow this structure:
 	address: /* string, url */,
 	displayText: /* string that can contain html formatting */,
 	displayAddress: /* string that can contain html formatting */,
-	tooltip: /* string */
+	tooltip: /* string */,
+	preview: /* string (html) */
 }
 ```
 
@@ -179,7 +180,8 @@ Here is how your result objects should look like:
 	address: /* string, url */,
 	displayText: /* string that can contain html formatting */,
 	displayAddress: /* string that can contain html formatting */,
-	tooltip: /* string */
+	tooltip: /* string */,
+	preview: /* string (html) */
 }
 ```
 
@@ -190,6 +192,8 @@ If you provide, both, text and displayText, displayText will be shown as the fir
 If you provide, both, address and displayAddress, only displayAddress will be shown, on the second row.
 
 By default, address is show in a tooltip on long-hover on items in the UI. You can pass a different tooltip text to replace it.
+
+Starting from ver1.2, you can optionally supply a preview html to be loaded in Pagehop's UI. Recipes such as DefineWord, CodeSearch and others use it - it can be used in the same manner with tools. Local resources you reffer from this html should assume the tool's root dir as / (web root).
 
 # Keep it simple!
 

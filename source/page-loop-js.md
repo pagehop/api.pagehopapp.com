@@ -188,9 +188,7 @@ You can check all available in the API of the `pagehop` object, bellow.
 
 # pagehop API (page-loop.js)
 
-All data obtained from getter methods is immutable.
-
-## pagehop.init(query, options, max, scrapeScript, systemMeta)
+## pagehop.init(query, options, max, scrapeScript, systemMeta, hops)
 
 This method is used by Pagehop, to preset the environment for running your page-loop.js
 
@@ -202,6 +200,14 @@ Lets go through the params:
 - **max** - integer, >=10, the maximal number of results that can be returned by the recipe.
 - **scrapeScript** - **string**, Pagehop executes recipes producing a single script which is the page-loop.js with all of it's dependencies and the scrape script (if any), which is executed in a separate isolated environment upon calling pagehop.scrape() from your page-loop. Since you only should use pagehop.init() in tests, and since these tests should only test the page-loop.js, **never** the scrape.js (it's separately tested), you don't need to pass actual script in here, because it shouldn't get executed.
 - **systemMeta** - **object** with 2 fields (arrays) - **recipes**, **tools**. This is usually used by recipes that provide some system information about Pagehop (AllRecipes list the available recipes and AllTools list the tools).
+- **hops** - **MUTABLE array** of objects specifying addresses the user had "hopped of". Here is the format of the hop objects:
+
+```javascript
+{
+	text: "text",
+	address: "address"
+}
+```
 
 ## pagehop.getMaxCount()
 
@@ -243,6 +249,17 @@ Tool objects look like this:
 	homepage: /* package.json:homepage */,
 	keyword: /* package.json:pagehop.keyword */
 } 
+```
+
+## pagehop.getHops()
+
+Returns a **MUTABLE array** of objects specifying addresses the user had "hopped of". Recipes are usually using the hops array for a visual notification of which recipe is being used. Here is how you should use the hops array and how the objects in it look like:
+
+```javascript
+pagehop.getHops().push( {
+	text: "RecipeId",
+	address: "http://some.url.com/will/produce/same/results/but/in-browser"
+} );
 ```
 
 ## pagehop.scrape( url, callback )
@@ -304,7 +321,8 @@ Here is how your result objects should look like:
 	address: /* string, url */,
 	displayText: /* string that can contain html formatting */,
 	displayAddress: /* string that can contain html formatting */,
-	tooltip: /* string */
+	tooltip: /* string */,
+	preview: /* string (html) */
 }
 ```
 
@@ -313,3 +331,5 @@ If you provide, both, text and displayText, displayText will be shown as the fir
 If you provide, both, address and displayAddress, only displayAddress will be shown, on the second row.
 
 By default, address is show in a tooltip on long-hover on items in the UI. You can pass a different tooltip text to replace it.
+
+Starting from ver1.2, you can optionally supply a preview html to be loaded in Pagehop's UI. Recipes such as DefineWord, CodeSearch and others use it. Local resources you reffer from this html should assume the recipe's root dir as / (web root).
