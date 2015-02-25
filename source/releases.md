@@ -1,6 +1,33 @@
 title: Release History
 permalink: releases/
 ---
+## 1.2 (27th Feb 2015)
+
+Add: Result Preview (load item address in a Web View);
+Add: embed NodeJS binaries instead of installing (no dependencies installed anymore);
+Add: API: recipe&tool-generated Result Preview (HTML to be loaded in the WebView);
+Add: API: recipes to receive and alter the hops array (breadcrumb in the UI);
+
+Add: recipe: DocSearch;
+Add: recipe: CodeSearch;
+Add: recipe: WolframAlpha;
+Add: recipe: Weather;
+Add: recipe: Time;
+
+Improve: 4mb smaller binary;
+Improve: OS X: update window needs a better title;
+Improve: all recipes to use the hops array (adding the initial item in the breadcrumb);
+Improve: recipe: DefineWord: to show word definitions in the result preview;
+Improve: recipe: Bing: performance;
+
+Fix: OS X: UI process crashes intermittently;
+Fix: OS X: searchField flashes white on first show;
+Fix: OS X: jerky text resizing of the query;
+Fix: OS X: breadcrumb remains longer after results have been replaced;
+Fix: OS X: single-line result template's text vertical position is a bit off;
+Fix: OS X: main window's invisible frame area is too large (larger screenshots);
+Fix: OS X: Caret should be further away from the left side.
+
 ## 1.1 (13th Jan 2015)
 
 Add: OS X: new UI design;
