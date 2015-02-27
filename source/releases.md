@@ -20,6 +20,7 @@ Improve: all recipes to use the hops array (adding the initial item in the bread
 Improve: recipe: DefineWord: to show word definitions in the result preview;
 Improve: recipe: Bing: performance;
 
+Fix: Update check doesn't repeat if fails;
 Fix: OS X: UI process crashes intermittently;
 Fix: OS X: searchField flashes white on first show;
 Fix: OS X: jerky text resizing of the query;
