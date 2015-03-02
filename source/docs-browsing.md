@@ -144,6 +144,6 @@ Lets see some awesome examples!
 
 ![](/docs-browsing-resources/java-docs.png)
 
-### Demo for Attribute Binding in KendoUI's MVVM
+### Demo for Attribute Binding in KendoUI MVVM
 
 ![](/docs-browsing-resources/kendo-demos.png)
