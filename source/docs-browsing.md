@@ -116,7 +116,7 @@ Writing this documentation we tried many documentation sites and results were ev
 
 Lets see some awesome examples!
 
-### Reference for Twitter Bootstrap's component Navbar
+### Reference for Twitter Bootstrap component Navbar
 
 ![](/docs-browsing-resources/bootstrap-navbar-docs.png)
 
