@@ -13,17 +13,15 @@ First you need to install PhantomJS v1.9.7. You can check their instructions [he
 Homebrew appear to install a custom build, which currently we don't support. Copy the archive from phantomjs's website, unarchive and place the binary of phantomjs (bin/phantomjs) in the /usr/local/bin/ dir.
 {% endnote %}
 
-## Install NodeJS (or just install Pagehop)
+## Install NodeJS
 
-If you have Pagehop installed on your development machine, you will have node installed (Pagehop install's it for you).
-
-The version we use is 0.10.28.
+The version currently in use is 0.10.36.
 
 {% note warn NodeJS version %}
-Pagehop might not work correctly with another version - we have done all of our testing on 0.10.28.
+Pagehop might not work correctly with another version - we have done all of our testing on 0.10.36.
 {% endnote %}
 
-If, for some reason, you don't want Pagehop installed on this machine, download the installer from [here](http://nodejs.org/dist/v0.10.28/node-v0.10.28.pkg) and install manually.
+Download the installer from [here](http://nodejs.org/dist/v0.10.36/node-v0.10.36.pkg) and install manually.
 
 ## Install Grunt
 
