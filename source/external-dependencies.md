@@ -93,3 +93,7 @@ var path = require('path'),
 {% note warn Don't minify/uglify recipes and tools which use fs %}
 Minificators usually combine statements into comma-separated statements (the example above), and this breaks the parsing of brfs.
 {% endnote %}
+
+{% note warn Don't import through ES6 syntax %}
+Although ES6 modules are generally available, you should keep the above snippet untouched - brfs will not be able to parse it otherwise.
+{% endnote %}
