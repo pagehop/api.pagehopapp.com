@@ -11,6 +11,7 @@ doc_sidebar:
     3rd party Recipes and Tools: 3rd-party-recipes-and-tools
   Development:
     Overview: development-overview
+    ECMAScript: ecma-script
     External Dependencies: external-dependencies
   Develop Recipes:
     Scaffold: scaffold-recipe
