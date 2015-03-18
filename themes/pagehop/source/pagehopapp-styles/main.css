@@ -4,6 +4,11 @@
 	background-size: 432px auto;
 }
 
+pre {
+	margin-bottom: 0;
+	word-wrap: normal;
+}
+
 /* everything bellow is from main site */
 
 a {
