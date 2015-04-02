@@ -102,6 +102,12 @@ Although this is not a documentation search per se, we programmers have this say
 
 ![](/common-resources/code-search-readfilesync.png)
 
+### Getting a reference for the BaseTexture class in pixi.js
+
+Starting from Pagehop 1.3, you can search (and browse) through the online docs of pixi.js.
+
+![](/docs-browsing-resources/pixi-basetexture-class.png)
+
 ## Navigating through static websites
 
 Most often than not, online documentations are static websites, without too much content loading on demand.
