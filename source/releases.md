@@ -1,6 +1,17 @@
 title: Release History
 permalink: releases/
 ---
+## 1.3 (3rd Apr 2015)
+
+Add: ECMAScript 6 support for all plugins;
+Add: recipe: pixiDocs;
+
+Improve: up to 10x faster initial start;
+Improve: 10MB less required disk space;
+
+Fix: OS X: breadcrumb invalid shadow remains in certain cases;
+Fix: OS X: window size changes too often.
+
 ## 1.2 (27th Feb 2015)
 
 Add: Result Preview (load item address in a Web View);
