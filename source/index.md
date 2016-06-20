@@ -34,7 +34,7 @@ There are 2 applications that get installed with Pagehop:
 
 ### What about Windows and Linux?
 
-Pagehop starts on the Mac, but it's designed to be easily ported on other OS's. In fact, here at Universless, we hate the word *ported*. That's why we made a promise to ourselves, that we will make Pagehop's UI special for every platform, using the most native for the platform UI. If you guys like Pagehop and want to see it on other platforms, please [tell us](mailto:feedback@pagehopapp.com), so we can make **the educated** guess which platform should we conquer next. To be able to get Pagehop on other platforms sooner, we are hoping, that you will show us your appreciation through [purchasing a license](https://pagehopapp.com/buy). Thank you for your honesty!
+Pagehop starts on the Mac, but it's designed to be easily ported on other OS's. In fact, here at Universless, we hate the word *ported*. That's why we made a promise to ourselves, that we will make Pagehop's UI special for every platform, using the most native for the platform UI. If you guys like Pagehop and want to see it on other platforms, please [tell us](mailto:feedback@pagehopapp.com), so we can make **the educated** guess which platform should we conquer next. To be able to get Pagehop on other platforms sooner, we are hoping, that you will show us your appreciation through purchasing a license (currently unavailable :(). Thank you for your honesty!
 
 ### What about mobile?
 
